@@ -23,6 +23,7 @@ describe.each([
         width,
         height,
         depth,
+        volume,
         bagId: bag.id,
       })
     ).toJSON();

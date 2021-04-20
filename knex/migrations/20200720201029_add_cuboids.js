@@ -9,7 +9,7 @@ export const up = (knex) =>
     table.integer('height');
     table.integer('depth');
     table.integer('bagId');
-
+    table.integer('volume');
     table.foreign('bagId').references('id').inTable(Bag.tableName);
   });
 
